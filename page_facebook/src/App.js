@@ -11,7 +11,7 @@ class App extends Component {
             prenom: "Jeanne",
             nom: "Dupont",
             date_naissance: "29/10/1969",
-            image: "https://api.adorable.io/avatars/285/1.png",
+            image: "https://api.adorable.io/avatars/285/6.png",
             bg_col: "lightpink",
             post: "Salut les amis !"
           }}
