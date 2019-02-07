@@ -6,7 +6,20 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <PageFacebook/>
+        <PageFacebook
+          pers1 = {{
+            prenom: "Jeanne",
+            nom: "Dupont"
+          }}
+          pers2 = {{
+            prenom: "Martine",
+            nom: "Michel"
+          }}
+          pers3 = {{
+            prenom: "Claude",
+            nom: "Le Bon"
+          }}
+        />
       </div>
     );
   }

@@ -3,10 +3,11 @@ import './BoutonPersonne.css'
 
 export default class BoutonPersonne extends Component {
   render() {
+    let p = this.props.pers;
     return (
-      <div className="BoutonPersonne">
-        <p>Le bouton d'une personne</p>
-      </div>
+      <button className="BoutonPersonne" onClick={() => this.props.handleClick(p)}>
+        <p>{p.prenom}</p>
+      </button>
     )
   }
 }

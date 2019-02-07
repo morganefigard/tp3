@@ -7,8 +7,9 @@ export default class Profil extends Component {
   render() {
     return (
       <div className="Profil">
-        <p>Le profil</p>
-        <Personne />
+        <Personne 
+          pers = {this.props.pers_select}
+        />
         <Post />
       </div>
     )

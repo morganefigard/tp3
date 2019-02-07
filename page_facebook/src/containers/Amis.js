@@ -6,10 +6,18 @@ export default class Amis extends Component {
   render() {
     return (
       <div className="Amis">
-        <p>Les amis</p>
-        <BoutonPersonne />
-        <BoutonPersonne />
-        <BoutonPersonne />
+        <BoutonPersonne 
+          pers = {this.props.pers1}
+          handleClick = {this.props.handleClick}
+        />
+        <BoutonPersonne 
+          pers = {this.props.pers2} 
+          handleClick = {this.props.handleClick}
+        />
+        <BoutonPersonne 
+          pers = {this.props.pers3} 
+          handleClick = {this.props.handleClick}
+        />
       </div>
     )
   }
