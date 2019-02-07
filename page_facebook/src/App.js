@@ -9,15 +9,21 @@ class App extends Component {
         <PageFacebook
           pers1 = {{
             prenom: "Jeanne",
-            nom: "Dupont"
+            nom: "Dupont",
+            date_naissance: "29/10/1969",
+            image: "https://api.adorable.io/avatars/285/1.png"
           }}
           pers2 = {{
             prenom: "Martine",
-            nom: "Michel"
+            nom: "Michel",
+            date_naissance: "07/04/1997",
+            image: "https://api.adorable.io/avatars/285/2.png"
           }}
           pers3 = {{
             prenom: "Claude",
-            nom: "Le Bon"
+            nom: "Le Bon",
+            date_naissance: "30/03/1968",
+            image: "https://api.adorable.io/avatars/285/3.png"
           }}
         />
       </div>

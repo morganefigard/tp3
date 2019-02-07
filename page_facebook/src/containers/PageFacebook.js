@@ -21,7 +21,6 @@ export default class PageFacebook extends Component {
 
   handleClick(personne) {
     this.changePersonne(personne);
-    console.log('clicked');
   }
 
   render() {
