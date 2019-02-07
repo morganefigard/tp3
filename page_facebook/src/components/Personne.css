@@ -1,10 +1,29 @@
 .Personne {
     border-style: solid;
-    border-color: red;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 1%;
+    padding-top: 2%;
+    box-shadow: 1px 1px 2px black;
 }
 
 .ProfileImg {
     border-radius: 10%;
     border-style: solid;
     border-width: 1px;
+}
+
+.BgButtonContainer {
+    text-align: right;
+    padding-right: 1%;
+}
+
+.BgButton {
+    background-color: white;
+    border-radius: 4px;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
