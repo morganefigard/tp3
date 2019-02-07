@@ -11,7 +11,9 @@ export default class Profil extends Component {
           pers = {this.props.pers_select}
           changeBackgroundColor = {this.props.changeBackgroundColor}
         />
-        <Post />
+        <Post 
+          post = {this.props.pers_select.post}
+        />
       </div>
     )
   }

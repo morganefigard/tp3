@@ -12,7 +12,8 @@ class App extends Component {
             nom: "Dupont",
             date_naissance: "29/10/1969",
             image: "https://api.adorable.io/avatars/285/1.png",
-            bg_col: "lightpink"
+            bg_col: "lightpink",
+            post: "Salut les amis !"
           }}
         />
       </div>

@@ -5,7 +5,8 @@ export default class Post extends Component {
   render() {
     return (
       <div className="Post">
-        <p>Le post</p>
+        <p>{this.props.post}</p>
+        <button>C'est super !</button>
       </div>
     )
   }

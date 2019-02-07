@@ -12,21 +12,24 @@ export default class PageFacebook extends Component {
         nom: "Dupont",
         date_naissance: "29/10/1969",
         image: "https://api.adorable.io/avatars/285/1.png",
-        bg_col: "lightpink"
+        bg_col: "lightpink",
+        post: "Salut les amis !"
       },
       pers2: {
         prenom: "Martine",
         nom: "Michel",
         date_naissance: "07/04/1997",
         image: "https://api.adorable.io/avatars/285/2.png",
-        bg_col: "lightpink"
+        bg_col: "lightpink",
+        post: "Hâte d'aller jouer au Scrabble."
       },
       pers3: {
         prenom: "Claude",
         nom: "Le Bon",
         date_naissance: "30/03/1968",
         image: "https://api.adorable.io/avatars/285/3.png",
-        bg_col: "lightpink"
+        bg_col: "lightpink",
+        post: "Qui veut venir diner demain soir ?"
       },
       pers_select: this.props.pers
     };
@@ -51,10 +54,11 @@ export default class PageFacebook extends Component {
             nom: "Dupont",
             date_naissance: "29/10/1969",
             image: "https://api.adorable.io/avatars/285/1.png",
-            bg_col: "lightblue"
+            bg_col: "lightblue",
+            post: "Salut les amis !"
           }
         });
-        this.setState({pers_select: {prenom: personne.prenom, nom: personne.nom, date_naissance: personne.date_naissance, image: personne.image, bg_col: "lightblue"}})
+        this.setState({pers_select: {prenom: personne.prenom, nom: personne.nom, date_naissance: personne.date_naissance, image: personne.image, bg_col: "lightblue", post: personne.post}})
       }
       else if(personne.prenom === "Martine") {
         this.setState({
@@ -63,10 +67,11 @@ export default class PageFacebook extends Component {
             nom: "Michel",
             date_naissance: "07/04/1997",
             image: "https://api.adorable.io/avatars/285/2.png",
-            bg_col: "lightblue"
+            bg_col: "lightblue",
+            post: "Hâte d'aller jouer au Scrabble."
           }
         });
-        this.setState({pers_select: {prenom: personne.prenom, nom: personne.nom, date_naissance: personne.date_naissance, image: personne.image, bg_col: "lightblue"}})
+        this.setState({pers_select: {prenom: personne.prenom, nom: personne.nom, date_naissance: personne.date_naissance, image: personne.image, bg_col: "lightblue", post: personne.post}})
       }
       else if(personne.prenom === "Claude") {
         this.setState({
@@ -75,10 +80,11 @@ export default class PageFacebook extends Component {
             nom: "Le Bon",
             date_naissance: "30/03/1968",
             image: "https://api.adorable.io/avatars/285/3.png",
-            bg_col: "lightblue"
+            bg_col: "lightblue",
+            post: "Qui veut venir diner demain soir ?"
           }
         });
-        this.setState({pers_select: {prenom: personne.prenom, nom: personne.nom, date_naissance: personne.date_naissance, image: personne.image, bg_col: "lightblue"}})
+        this.setState({pers_select: {prenom: personne.prenom, nom: personne.nom, date_naissance: personne.date_naissance, image: personne.image, bg_col: "lightblue", post: personne.post}})
       }
     }
     else {
@@ -89,10 +95,11 @@ export default class PageFacebook extends Component {
             nom: "Dupont",
             date_naissance: "29/10/1969",
             image: "https://api.adorable.io/avatars/285/1.png",
-            bg_col: "lightpink"
+            bg_col: "lightpink",
+            post: "Salut les amis !"
           }
         });
-        this.setState({pers_select: {prenom: personne.prenom, nom: personne.nom, date_naissance: personne.date_naissance, image: personne.image, bg_col: "lightpink"}})
+        this.setState({pers_select: {prenom: personne.prenom, nom: personne.nom, date_naissance: personne.date_naissance, image: personne.image, bg_col: "lightpink", post: personne.post}})
       }
       else if(personne.prenom === "Martine") {
         this.setState({
@@ -101,10 +108,11 @@ export default class PageFacebook extends Component {
             nom: "Michel",
             date_naissance: "07/04/1997",
             image: "https://api.adorable.io/avatars/285/2.png",
-            bg_col: "lightpink"
+            bg_col: "lightpink",
+            post: "Hâte d'aller jouer au Scrabble."
           }
         });
-        this.setState({pers_select: {prenom: personne.prenom, nom: personne.nom, date_naissance: personne.date_naissance, image: personne.image, bg_col: "lightpink"}})
+        this.setState({pers_select: {prenom: personne.prenom, nom: personne.nom, date_naissance: personne.date_naissance, image: personne.image, bg_col: "lightpink", post: personne.post}})
       }
       else if(personne.prenom === "Claude") {
         this.setState({
@@ -113,10 +121,11 @@ export default class PageFacebook extends Component {
             nom: "Le Bon",
             date_naissance: "30/03/1968",
             image: "https://api.adorable.io/avatars/285/3.png",
-            bg_col: "lightpink"
+            bg_col: "lightpink",
+            post: "Qui veut venir diner demain soir ?"
           }
         });
-        this.setState({pers_select: {prenom: personne.prenom, nom: personne.nom, date_naissance: personne.date_naissance, image: personne.image, bg_col: "lightpink"}})
+        this.setState({pers_select: {prenom: personne.prenom, nom: personne.nom, date_naissance: personne.date_naissance, image: personne.image, bg_col: "lightpink", post: personne.post}})
       }
     }
   }
