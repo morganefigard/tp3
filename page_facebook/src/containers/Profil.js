@@ -9,6 +9,7 @@ export default class Profil extends Component {
       <div className="Profil">
         <Personne 
           pers = {this.props.pers_select}
+          changeBackgroundColor = {this.props.changeBackgroundColor}
         />
         <Post />
       </div>
