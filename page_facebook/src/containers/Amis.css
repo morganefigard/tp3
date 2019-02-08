@@ -3,4 +3,7 @@
     padding-right: 5%;
     margin-bottom: 2%;
     background-color: bisque;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    border-bottom-color: orange;
 }
